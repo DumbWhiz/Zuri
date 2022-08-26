@@ -151,6 +151,8 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    margin: 0px;
+    letter-spacing: 00.00938em;
 }
 
 .header-mid-div .search {
@@ -788,8 +790,186 @@ left: -10px;
     width: 100%;
 }
 
+.zuri-help-section2{
+    max-width: 1400px;
+}
+.zuri-help-section2 img{
+    width:15%; 
+    padding:20px; 
+    margin-top: 30px;
+}
 
+/* Section-6 */
+.root-container6{
+margin: auto;
+max-width: 1440px;
+padding-top: 69px;
+width: 90%;
+}
 
+.container6{
+    box-sizing:border-box ;
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    margin-top: -24px;
+    width: calc(100% + 24px);
+    margin-left:-24px;
+}
+
+/* Paragraphs */
+.root-container6 .container6-text{    
+    padding-left:24px;
+    padding-top: 24px;
+    flex-basis: 50%;
+    flex-grow: 0;
+    max-width: 50%;
+    flex-direction: row;
+}
+
+.container6-text .CVI-p1{
+margin: 0px;
+font-family: Roboto, Helvetica, Arial, sans-serif;
+letter-spacing: 0.00938em;
+color: var(--color-red);
+font-size: 24px;
+font-style:normal;
+font-weight: 400;
+}
+
+.container6-text .CVI-p2{
+    color: var(--color-black);
+    font-family: Graphik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-top: 10px;
+}
+
+/* Wire Image*/
+.container6-wire{
+    display: flex;
+    justify-content: center;
+}
+
+.container6-wire img{
+    width:15%;
+    margin-top: -24px;
+}
+
+/* Stacks Boxes */
+.container6-boxes{
+box-sizing: border-box;
+display: flex;
+flex-flow: row wrap;
+/* justify-content:space-between ; */
+width: 100%;
+}
+
+.container6-boxes .CVI-boxes{
+    background-color: var(--color-white);
+    border-radius: 40px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    /* height: 240px; */
+    padding: 40px;
+    flex-basis: 40%;
+    max-width: 31.333%;
+    flex-grow: 0;
+    margin-top: 24px;
+}
+
+.CVI-boxes .CVI-p3{
+    color:var(--color-black);
+    font-family:var(--font-family);
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+/* Box images */
+.CVI-boxes .CVI-images{
+    margin-bottom: 20px;
+}
+
+.CVI-images .img-2n3{
+    margin-left: 14px;
+}
+
+.CVI-images .img-2n3b{
+    margin-left:10px
+}
+
+.CVI-images .img-2n3c{
+    margin-left:3px
+}
+
+/* Box text */
+.CVI-p4{
+    font-size:16px;
+    font-weight:400;
+    letter-spacing:0.05em;
+    line-height:140%;
+    color:var(--color-black);
+    font-family:var(--font-family);
+    font-style:normaal;
+}
+
+/* Box Enroll Now Button */
+.CVI-enroll-container{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:85px;
+margin-top:70px;
+}
+
+.CVI-enroll{
+ display:inline-flex;
+ text-decoration:none;
+ cursor:pointer;
+ user-select:none;
+ letter-spacing:0.02857em;
+ min-width:64px;   
+}
+
+.CVI-button{
+    background:var(--color-red);
+    padding:10px 32px;
+    border-radius:71px;
+    color:var(--color-white);
+    font-family:var(--font-family);
+    font-size:18px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+}
+
+.stack-divider{
+    margin:0px;
+    flex-shrink:0;
+    border-width:0px 0px thin;
+}
+/* 
+
+.container {
+    max-width:1440px;
+    margin: 0 auto;
+    padding: 15px 0;
+    place-items: center;
+    display: grid;
+
+} */
+
+/* .container6b{
+ box-sizing: border-box;
+ display: flex;
+ flex-flow: row wrap;
+ margin-top: -24px;
+ width: calc(100% + 24px);
+ margin-left: -24px;
+}  */
  /* .zuri-help-lhs .a-tag span{
     overflow: hidden;
     pointer-events: none;
