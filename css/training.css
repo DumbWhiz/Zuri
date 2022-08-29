@@ -3,7 +3,7 @@
 :root {
     --background-color-body: #fffdf5;
     --background-color: #ffffff;
-    --font-family: graphik;
+    --font-family: Graphik;
     --color-red: #e7332b;
     --color-black: #1b1a20;
     --color-black-light: #585757;
@@ -854,7 +854,7 @@ font-weight: 400;
 
 .container6-wire img{
     width:15%;
-    margin-top: -24px;
+    margin-top: -80px;
 }
 
 /* Stacks Boxes */
@@ -862,8 +862,8 @@ font-weight: 400;
 box-sizing: border-box;
 display: flex;
 flex-flow: row wrap;
-/* justify-content:space-between ; */
 width: 100%;
+margin-top:-20px;
 }
 
 .container6-boxes .CVI-boxes{
